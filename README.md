@@ -1,6 +1,6 @@
 # Introduction
 
-[Custom installer][1] definition for [composer][http://getcomposer.org]. This
+[Custom installer][1] definition for [composer](http://getcomposer.org). This
 repository only contains a composer.json file as the real installer is in the
 main [SymfonyPress repository][2].
 
