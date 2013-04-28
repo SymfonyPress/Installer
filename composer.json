@@ -1,0 +1,9 @@
+{
+    "name": "symfonypress/wordpress-installer",
+    "type": "composer-installer",
+    "license": "MIT",
+    "require": "symfonypress/symfonypress",
+    "extra": {
+        "class": "SymfonyPress\\Composer\\WordPressInstaller"
+    }
+}
