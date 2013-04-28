@@ -7,7 +7,7 @@
         "symfonypress/symfonypress": "~0.1"
     },
     "extra": {
-        "class": "SymfonyPress\\Composer\\WordPressInstaller",
+        "class": "SymfonyPress\\Composer\\SymfonyPressInstaller",
         "branch-alias": {
             "dev-master": "0.1.0-dev"
         }
