@@ -1,9 +1,12 @@
 {
-    "name": "symfonypress/wordpress-installer",
+    "name": "symfonypress/installer",
     "type": "composer-installer",
     "license": "MIT",
     "require": "symfonypress/symfonypress",
     "extra": {
-        "class": "SymfonyPress\\Composer\\WordPressInstaller"
+        "class": "SymfonyPress\\Composer\\WordPressInstaller",
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
     }
 }
