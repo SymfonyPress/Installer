@@ -3,11 +3,17 @@
     "description": "Installer definition for SymfonyPress dependancies",
     "type": "composer-installer",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
-        "symfonypress/symfonypress": "~0.1"
+    },
+    "require-dev": {
+        "composer/composer": "~1.0@dev"
+    },
+    "autoload": {
+        "psr-0": { "SymfonyPress\\ComposerInstaller": "src/" }
     },
     "extra": {
-        "class": "SymfonyPress\\Composer\\SymfonyPressInstaller",
+        "class": "SymfonyPress\\ComposerInstaller\\SymfonyPressInstaller",
         "branch-alias": {
             "dev-master": "0.1.0-dev"
         }
